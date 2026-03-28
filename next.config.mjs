@@ -7,6 +7,9 @@ const nextConfig = {
   trailingSlash: true,
   basePath: isProd ? `/${repoName}` : '',
   assetPrefix: isProd ? `/${repoName}/` : '',
+  env: {
+    NEXT_PUBLIC_BASE_PATH: isProd ? `/${repoName}` : '',
+  },
   typescript: {
     ignoreBuildErrors: true,
   },

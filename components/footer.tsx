@@ -1,6 +1,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Sun, Wind, Droplets } from "lucide-react";
+import shiftlyLogo from "@/public/ShiftlyLogo.png";
 
 export function Footer() {
   return (
@@ -10,7 +11,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/ShiftlyLogo.png"
+                src={shiftlyLogo}
                 alt="Shiftly logo"
                 width={19}
                 height={32}

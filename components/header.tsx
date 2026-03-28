@@ -5,6 +5,7 @@ import Image from "next/image";
 import { usePathname } from "next/navigation";
 import { ShoppingCart, Menu, X } from "lucide-react";
 import { useState } from "react";
+import shiftlyLogo from "@/public/ShiftlyLogo.png";
 import { Button } from "@/components/ui/button";
 import { useCart } from "@/lib/cart-context";
 import { cn } from "@/lib/utils";
@@ -26,7 +27,7 @@ export function Header() {
       <div className="mx-auto flex h-16 max-w-7xl items-center justify-between px-4 sm:px-6 lg:px-8">
         <Link href="/" className="flex items-center gap-2">
           <Image
-            src="/ShiftlyLogo.png"
+            src={shiftlyLogo}
             alt="Shiftly logo"
             width={19}
             height={32}

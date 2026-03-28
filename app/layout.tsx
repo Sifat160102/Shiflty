@@ -15,14 +15,16 @@ const dmSerif = DM_Serif_Display({
   variable: "--font-serif"
 });
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH ?? '';
+
 export const metadata: Metadata = {
   title: 'Shiftly - Shifting Towards Nature',
   description: 'Your store for vegetables grown with 100% renewable energy. Fresh, fairly priced produce that is lighter on the planet.',
   keywords: ['organic vegetables', 'renewable energy', 'sustainable farming', 'green produce', 'eco-friendly'],
   icons: {
-    icon: '/ShiftlyLogo.png',
-    shortcut: '/ShiftlyLogo.png',
-    apple: '/ShiftlyLogo.png',
+    icon: `${basePath}/ShiftlyLogo.png`,
+    shortcut: `${basePath}/ShiftlyLogo.png`,
+    apple: `${basePath}/ShiftlyLogo.png`,
   },
 }
 
