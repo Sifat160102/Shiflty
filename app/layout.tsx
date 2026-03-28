@@ -19,6 +19,11 @@ export const metadata: Metadata = {
   title: 'Shiftly - Shifting Towards Nature',
   description: 'Your store for vegetables grown with 100% renewable energy. Fresh, fairly priced produce that is lighter on the planet.',
   keywords: ['organic vegetables', 'renewable energy', 'sustainable farming', 'green produce', 'eco-friendly'],
+  icons: {
+    icon: '/shiftly-logo.svg',
+    shortcut: '/shiftly-logo.svg',
+    apple: '/shiftly-logo.svg',
+  },
 }
 
 export default function RootLayout({

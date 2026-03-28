@@ -1,5 +1,6 @@
 import Link from "next/link";
-import { Leaf, Sun, Wind, Droplets } from "lucide-react";
+import Image from "next/image";
+import { Sun, Wind, Droplets } from "lucide-react";
 
 export function Footer() {
   return (
@@ -8,7 +9,13 @@ export function Footer() {
         <div className="grid gap-8 md:grid-cols-4">
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
-              <Leaf className="h-8 w-8 text-primary" />
+              <Image
+                src="/shiftly-logo.svg"
+                alt="Shiftly logo"
+                width={19}
+                height={32}
+                className="h-8 w-auto"
+              />
               <span className="font-serif text-2xl font-medium">Shiftly</span>
             </Link>
             <p className="text-sm text-muted-foreground">

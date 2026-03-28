@@ -1,9 +1,9 @@
 1:"$Sreact.fragment"
 2:I[3347,["/Shiftly/_next/static/chunks/0oisiw8-wk~if.js","/Shiftly/_next/static/chunks/071rtdt~f.bax.js"],"ClientPageRoot"]
-3:I[94015,["/Shiftly/_next/static/chunks/0oisiw8-wk~if.js","/Shiftly/_next/static/chunks/071rtdt~f.bax.js","/Shiftly/_next/static/chunks/0rp7l84i9u~lu.js","/Shiftly/_next/static/chunks/0kqayab2~mquq.js","/Shiftly/_next/static/chunks/0-dusx-pk92y5.js"],"default"]
+3:I[94015,["/Shiftly/_next/static/chunks/0oisiw8-wk~if.js","/Shiftly/_next/static/chunks/071rtdt~f.bax.js","/Shiftly/_next/static/chunks/0rp7l84i9u~lu.js","/Shiftly/_next/static/chunks/0euh3gc1~1zhx.js","/Shiftly/_next/static/chunks/10brg1s.78hrw.js"],"default"]
 6:I[36191,["/Shiftly/_next/static/chunks/0oisiw8-wk~if.js","/Shiftly/_next/static/chunks/071rtdt~f.bax.js"],"OutletBoundary"]
 7:"$Sreact.suspense"
-0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/Shiftly/_next/static/chunks/0rp7l84i9u~lu.js","async":true}],["$","script","script-1",{"src":"/Shiftly/_next/static/chunks/0kqayab2~mquq.js","async":true}],["$","script","script-2",{"src":"/Shiftly/_next/static/chunks/0-dusx-pk92y5.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"DL9iX3BdXtfQoV3Rm0oQC"}
+0:{"rsc":["$","$1","c",{"children":[["$","$L2",null,{"Component":"$3","serverProvidedParams":{"searchParams":{},"params":{},"promises":["$@4","$@5"]}}],[["$","script","script-0",{"src":"/Shiftly/_next/static/chunks/0rp7l84i9u~lu.js","async":true}],["$","script","script-1",{"src":"/Shiftly/_next/static/chunks/0euh3gc1~1zhx.js","async":true}],["$","script","script-2",{"src":"/Shiftly/_next/static/chunks/10brg1s.78hrw.js","async":true}]],["$","$L6",null,{"children":["$","$7",null,{"name":"Next.MetadataOutlet","children":"$@8"}]}]]}],"isPartial":false,"staleTime":300,"varyParams":null,"buildId":"B8QtbWOaalfaCe-lSNN8o"}
 4:{}
 5:"$0:rsc:props:children:0:props:serverProvidedParams:params"
 8:null
