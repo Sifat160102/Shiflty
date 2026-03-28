@@ -139,7 +139,7 @@ export const products: Product[] = [
     co2e_green: 0.08,
     co2e_conv: 0.50,
     stock_kg: 300,
-    image: "https://images.unsplash.com/photo-1518977676601-b53f82ber4d?w=400&h=300&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/f/f3/Potatoes.jpg",
     badges: ["Organic", "Lighter on the Planet"]
   },
   {
@@ -177,7 +177,7 @@ export const products: Product[] = [
     co2e_green: 0.06,
     co2e_conv: 0.40,
     stock_kg: 180,
-    image: "https://images.unsplash.com/photo-1618512496248-a07e5a3e6bc8?w=400&h=300&fit=crop",
+    image: "https://upload.wikimedia.org/wikipedia/commons/0/07/Red_onion.jpg",
     badges: ["Fair Pay"]
   }
 ];
