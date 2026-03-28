@@ -1,7 +1,6 @@
 "use client";
 
-import { useState, useMemo } from "react";
-import { useSearchParams } from "next/navigation";
+import { useEffect, useMemo, useState } from "react";
 import { Filter, X, Sun, Wind, Droplets, Leaf } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -18,14 +17,16 @@ const energyIcons = {
 };
 
 export default function ShopPage() {
-  const searchParams = useSearchParams();
-  const initialCategory = searchParams.get("category") || "All";
-  
-  const [selectedCategory, setSelectedCategory] = useState(initialCategory);
+  const [selectedCategory, setSelectedCategory] = useState("All");
   const [selectedEnergy, setSelectedEnergy] = useState("All");
   const [searchQuery, setSearchQuery] = useState("");
   const [showFilters, setShowFilters] = useState(false);
   const [sortBy, setSortBy] = useState<"name" | "price-asc" | "price-desc">("name");
+
+  useEffect(() => {
+    const category = new URLSearchParams(window.location.search).get("category") || "All";
+    setSelectedCategory(category);
+  }, []);
 
   const filteredProducts = useMemo(() => {
     let filtered = products;

@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import Link from "next/link";
 import Image from "next/image";
 import { useRouter } from "next/navigation";
@@ -35,8 +35,13 @@ export default function CheckoutPage() {
 
   const [paymentMethod, setPaymentMethod] = useState("card");
 
+  useEffect(() => {
+    if (items.length === 0 && step !== "confirmation") {
+      router.push("/cart");
+    }
+  }, [items.length, step, router]);
+
   if (items.length === 0 && step !== "confirmation") {
-    router.push("/cart");
     return null;
   }
 
