@@ -27,7 +27,9 @@ export function Header() {
   <img 
     src="public/ShiftlyLogo.png" 
     alt="Shiftly logo" 
-    className="h-8 w-auto"
+       width={40} 
+    height={40}
+    className="h-10 w-auto"
   />
   <span className="font-serif text-2xl font-medium text-foreground">Shiftly</span>
 </Link>
