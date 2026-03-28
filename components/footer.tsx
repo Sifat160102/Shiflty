@@ -10,7 +10,7 @@ export function Footer() {
           <div className="space-y-4">
             <Link href="/" className="flex items-center gap-2">
               <Image
-                src="/shiftly-logo.svg"
+                src="/ShiftlyLogo.png"
                 alt="Shiftly logo"
                 width={19}
                 height={32}
